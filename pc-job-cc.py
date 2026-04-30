@@ -35,9 +35,9 @@ DBNAME = secrets["DBNAME"]
 # =========================================
 # 2️⃣ Cargar modelo
 # =========================================
-model = joblib.load("components/model.pkl")
-scaler = joblib.load("components/scaler.pkl")
-feature_names = joblib.load("components/features.pkl")
+model = joblib.load("model.pkl")
+scaler = joblib.load("scaler.pkl")
+feature_names = joblib.load("features.pkl")
 
 # =========================================
 # 3️⃣ Estadísticas reales del dataset
